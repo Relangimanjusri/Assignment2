@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internships</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #8585fa, #f9f9ff);
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 40px;
+      color: #111;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      padding: 24px 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #2c3e50;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      line-height: 1.7;
+      font-size: 0.95rem;
+    }
+
+    .card ul li::before {
+      content: '• ';
+      color: #3498db;
+    }
+
+    .btn {
+      margin-top: 20px;
+      display: inline-block;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #00f2fe, #4facfe);
+    }
+  </style>
+</head>
+<body>
+  <h1>Internships</h1>
+  <div class="container">
+
+    <div class="card">
+      <h2>Web Development Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="web-details.html" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>App Development Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="app-details.html" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>Python Programming Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="python-details.html" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>Java Programming Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="java-details.html" class="btn">View Details</a>
+    </div>
+
+  </div>
+</body>
+</html>
